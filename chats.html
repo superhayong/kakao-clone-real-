@@ -30,5 +30,49 @@
         <span class="header__text">Chats <i class="fa fa-caret-down"></i></span>
       </div>
     </header>
+    <main class="chats">
+      <div class="search-bar">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Find friends, chats, Plus Friends" />
+      </div>
+      <ul class="chats__list">
+        <li class="chats__chat">
+          <div class="chat__content">
+            <img src="images/hayong.jpg" />
+            <div class="chat__preview">
+              <h3 class="chat__user">정하용</h3>
+              <span class="chat__last-message">안녕 나는 하용이야</span>
+            </div>
+            <span class="chat__date-time"> 15:56 </span>
+          </div>
+        </li>
+      </ul>
+      <li class="chats__chat">
+        <div class="chat__content">
+          <img src="images/hayong.jpg" />
+          <div class="chat__preview">
+            <h3 class="chat__user">KakaoTalk</h3>
+            <span class="chat__last-message">니 컴퓨터에서 로그인 했다.</span>
+          </div>
+          <span class="chat__date-time"> 어제 </span>
+        </div>
+      </li>
+      <div class="chat-btn"><i class="fa fa-comment"></i></div>
+    </main>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+        <i class="fa fa-user"></i> <span class="tab-bar__title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar__tab">
+        <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar__tab">
+        <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar__tab">
+        <i class="fa fa-ellipsis-h"></i>
+        <span class="tab-bar__title">More</span>
+      </a>
+    </nav>
   </body>
 </html>
